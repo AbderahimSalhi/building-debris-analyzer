@@ -24,9 +24,7 @@ This project scrapes images of building debris from Wikimedia Commons, analyzes 
   git clone https://github.com/yourusername/building-debris-analyzer.git
   cd building-debris-analyzer
 2. Create a conda environment and install dependencies:
-  ```bash
   conda env create -f requirements.yml
   conda activate building-debris-analyzer
 3. run the script
-  ```bash
   python wiki_images.py
