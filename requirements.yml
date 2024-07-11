@@ -1,0 +1,21 @@
+
+requirements.yml:
+
+```yaml
+name: building-debris-analyzer
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.8
+  - pip
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.3  # Adjust this version based on your CUDA version
+  - pip:
+    - requests
+    - openpyxl
+    - transformers
+    - pillow
+    - numpy
+    - yolov5
