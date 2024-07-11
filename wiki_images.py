@@ -1,7 +1,8 @@
 """
 Building Debris Image Analyzer
 Author: Abderahim Salhi
-Version: 1.0
+Version: 3.0
+date: 1/5/2024
 
 This script scrapes images of building debris from Wikimedia Commons,
 analyzes them using machine learning models (CLIP and YOLOv5),
@@ -153,7 +154,16 @@ class ImageLabeler:
 
 
 
+# """
+# Building Debris Image Analyzer
+# Author: Abderahim Salhi
+# Version: 1.0
+# date: 12/28/2023
 
+# This script scrapes images of building debris from Wikimedia Commons,
+# analyzes them using machine learning models (CLIP and YOLOv5),
+# and generates a labeled dataset in Excel format.
+# """
 # import requests
 # import os
 # import json
@@ -251,6 +261,15 @@ class ImageLabeler:
 #     scrape_wikimedia_commons(search_term, num_images=20)
 
 
+#Building Debris Image Analyzer
+# Author: Abderahim Salhi
+# Version: 2.0
+# date: 1/4/2024
+
+# This script scrapes images of building debris from Wikimedia Commons,
+# analyzes them using machine learning models (CLIP and YOLOv5),
+# and generates a labeled dataset in Excel format.
+# """
 # import requests
 # import os
 # import json
