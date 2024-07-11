@@ -37,6 +37,7 @@ conda activate building-debris-analyzer
 python wiki_images.py
 
 
+
 3. The script will:
 - Download images to a folder named `building_debris_images`
 - Analyze each image
@@ -49,17 +50,8 @@ python wiki_images.py
 search_term = "building debris damage"
 scrape_wikimedia_commons(search_term, num_images=100)
 
-Output
-The generated Excel file (image_labels.xlsx) will contain the following columns:
-Filename
-Disaster Type
-Building Intact
-Humans Visible
-Description
 
-Note
-This script uses the Wikimedia API. Please be respectful of their servers and avoid making too many requests in a short period.
+## License
 
-License
-MIT License
- 
+[MIT License](LICENSE)
+
